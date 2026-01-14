@@ -235,17 +235,19 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Box 2: Automation (1x1) - Top Right */}
-                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
+                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl p-6 flex flex-col gap-4 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
                     <div className="flex items-start justify-between">
                         <div className="w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
                             <Settings size={20} />
                         </div>
                     </div>
-                    <div>
-                        <h3 className="font-sans font-bold text-xl mb-2 text-navy">Automation</h3>
-                        <p className="font-body text-sm text-navy/70 mb-4">Designing scalable processes.</p>
+                    <div className="flex flex-col gap-3 flex-1">
+                        <div>
+                            <h3 className="font-sans font-bold text-xl mb-2 text-navy">Automation</h3>
+                            <p className="font-body text-sm text-navy/70">Designing scalable processes.</p>
+                        </div>
                         {/* Code Snippet */}
-                        <div className="bg-navy p-3 rounded-lg font-mono text-xs text-gray-300 overflow-hidden shadow-inner">
+                        <div className="bg-navy p-3 rounded-lg font-mono text-xs text-gray-300 shadow-inner flex-1 flex flex-col justify-center">
                             <div className="flex gap-1.5 mb-2 opacity-50">
                                 <div className="w-2 h-2 rounded-full bg-red-500"></div>
                                 <div className="w-2 h-2 rounded-full bg-yellow-500"></div>

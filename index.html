@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edward Allan | The Tech-Enabled Accountant</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto+Serif:opsz,wght@8..144,400;600&family=Roboto:wght@300;400;500&family=Syne:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                DEFAULT: '#0A192F',
+                light: '#112240', // Surface Light Navy
+                steely: '#355488',
+              },
+              primary: '#F6F4EE', // Off-White
+              secondary: '#33c481', // Excel Green/Teal
+              muted: '#8892B0', // Slate Grey
+              highlight: '#E3F2FD', // Pale Blue for highlighting
+              portfolio: {
+                green: '#0F3D2E',
+                sage: '#A9CBB7',
+                tan: '#D5CEB5',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Roboto Serif', 'serif'],
+              body: ['Roboto', 'sans-serif'],
+              button: ['Inter', 'sans-serif'],
+              display: ['Syne', 'sans-serif'],
+            },
+            borderRadius: {
+              'pill': '999px',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a cleaner look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0A192F; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #112240; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #33c481; 
+      }
+      
+      /* Highlight rule */
+      .text-highlight {
+        background-color: #E3F2FD;
+        color: #0A192F;
+        padding: 0 4px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-navy text-primary font-body antialiased selection:bg-secondary selection:text-navy">
+    <div id="root"></div>
+  </body>
+</html>

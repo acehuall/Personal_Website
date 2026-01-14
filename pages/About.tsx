@@ -91,7 +91,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
                 <div className="md:col-span-5">
                     <h2 className="font-serif text-4xl font-semibold leading-tight text-navy">
-                        Gosh i'm great aren't I
+                        Gosh I'm great aren't I
                     </h2>
                 </div>
                 <div className="md:col-span-7 font-body text-lg leading-relaxed space-y-6 text-navy/80">

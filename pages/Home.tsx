@@ -160,7 +160,7 @@ const Home: React.FC = () => {
         <div className="max-w-[1120px] mx-auto px-6 md:px-12">
             <h2 className="font-serif text-4xl mb-12 text-center text-navy-light">Functional Skills</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-4 md:gap-5 h-auto md:h-[600px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-4 md:gap-5 h-auto md:h-[640px]">
                 
                 {/* Box 1: Finance Analytics (2x2) - Top Left */}
                 <div className="md:col-span-2 md:row-span-2 bg-[#F6F4EE] rounded-2xl p-6 md:p-8 relative overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-300 min-h-[320px] md:min-h-0">

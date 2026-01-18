@@ -160,7 +160,7 @@ const Home: React.FC = () => {
         <div className="max-w-[1120px] mx-auto px-6 md:px-12">
             <h2 className="font-serif text-4xl mb-12 text-center text-navy-light">Functional Skills</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-4 md:gap-5 h-auto md:h-[600px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-4 md:gap-5 h-auto md:h-[640px]">
                 
                 {/* Box 1: Finance Analytics (2x2) - Top Left */}
                 <div className="md:col-span-2 md:row-span-2 bg-[#F6F4EE] rounded-2xl p-6 md:p-8 relative overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-300 min-h-[320px] md:min-h-0">
@@ -235,19 +235,19 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Box 2: Automation (1x1) - Top Right */}
-                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl p-6 flex flex-col gap-4 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
+                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl px-6 py-5 md:px-5 md:py-4 flex flex-col gap-2 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
                     <div className="flex items-start justify-between">
-                        <div className="w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
+                        <div className="-mt-1 w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
                             <Settings size={20} />
                         </div>
                     </div>
-                    <div className="flex flex-col gap-3 flex-1">
+                    <div className="flex flex-col gap-3 flex-1 min-h-0">
                         <div>
-                            <h3 className="font-sans font-bold text-xl mb-2 text-navy">Automation</h3>
-                            <p className="font-body text-sm text-navy/70">Designing scalable processes.</p>
+                            <h3 className="font-sans font-bold text-lg mb-1 text-navy">Automation</h3>
+                            <p className="font-body text-xs text-navy/70">Designing scalable processes.</p>
                         </div>
                         {/* Code Snippet */}
-                        <div className="bg-navy p-3 rounded-lg font-mono text-xs text-gray-300 shadow-inner flex-1 flex flex-col justify-center">
+                        <div className="bg-navy p-2.5 rounded-lg font-mono text-[11px] leading-4 text-gray-300 shadow-inner mt-auto">
                             <div className="flex gap-1.5 mb-2 opacity-50">
                                 <div className="w-2 h-2 rounded-full bg-red-500"></div>
                                 <div className="w-2 h-2 rounded-full bg-yellow-500"></div>

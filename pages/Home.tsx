@@ -237,7 +237,7 @@ const Home: React.FC = () => {
                 {/* Box 2: Automation (1x1) - Top Right */}
                 <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl p-6 md:p-5 flex flex-col gap-3 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
                     <div className="flex items-start justify-between">
-                        <div className="w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
+                        <div className="-mt-1 w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
                             <Settings size={20} />
                         </div>
                     </div>

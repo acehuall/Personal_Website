@@ -235,15 +235,15 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Box 2: Automation (1x1) - Top Right */}
-                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl p-6 md:p-5 flex flex-col gap-3 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
+                <div className="md:col-span-1 md:row-span-1 bg-[#F6F4EE] rounded-2xl px-6 py-5 md:px-5 md:py-4 flex flex-col gap-2 shadow-sm hover:shadow-xl transition-all duration-300 group min-h-[200px] md:min-h-0">
                     <div className="flex items-start justify-between">
-                        <div className="w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
+                        <div className="-mt-1 w-10 h-10 bg-portfolio-green/10 rounded-full flex items-center justify-center text-portfolio-green">
                             <Settings size={20} />
                         </div>
                     </div>
                     <div className="flex flex-col gap-3 flex-1 min-h-0">
                         <div>
-                            <h3 className="font-sans font-bold text-lg mb-1.5 text-navy">Automation</h3>
+                            <h3 className="font-sans font-bold text-lg mb-1 text-navy">Automation</h3>
                             <p className="font-body text-xs text-navy/70">Designing scalable processes.</p>
                         </div>
                         {/* Code Snippet */}
